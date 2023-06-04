@@ -1,0 +1,5 @@
+n = int(input())
+print("Thousends:",n // 1000)
+print("Hundreds:", n % 1000 // 100)
+print("Tens:", n % 100 // 10)
+print("Ones:", n % 10)
