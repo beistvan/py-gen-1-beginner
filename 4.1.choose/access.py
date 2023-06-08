@@ -1,0 +1,1 @@
+print("Access granted" if int(input()) >= 18 else "Access denied")
