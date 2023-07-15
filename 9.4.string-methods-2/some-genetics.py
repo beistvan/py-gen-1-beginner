@@ -1,0 +1,5 @@
+s = input()
+print('Adenine: ' + str(s.count('A') + s.count('a')))
+print('Guanine: ' + str(s.count('G') + s.count('g')))
+print('Cytosine: ' + str(s.count('C') + s.count('c')))
+print('Thymine: ' + str(s.count('T') + s.count('t')))
