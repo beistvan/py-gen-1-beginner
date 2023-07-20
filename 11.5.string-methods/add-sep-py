@@ -1,0 +1,2 @@
+s, r = input(), input()
+print(r.join(s))
