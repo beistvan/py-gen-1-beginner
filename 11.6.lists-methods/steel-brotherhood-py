@@ -1,0 +1,7 @@
+n = int(input().replace('#', ''))
+for _ in range(n):
+    s = input()
+    if s.find('#') > 0:
+        print(s[:s.find('#')].rstrip())
+    else:
+        print(s)
